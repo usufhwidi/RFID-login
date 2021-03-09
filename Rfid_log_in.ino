@@ -6,8 +6,8 @@ uint8_t buf[8] = { 0 };
 
 MFRC522 mfrc522(SS_PIN, RST_PIN); 
 String card_ID=""; // 
-String password="usuf" ;
-String rfid="9069225128";// UID 
+String password="usuf" ;// your password here 
+String rfid="9069225128";// your uid here 
 void setup() {
   Serial.begin(9600); 
   SPI.begin(); 
